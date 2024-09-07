@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.__menubar {
+    transform: translateX(-100%); /* Default hidden state */
+}
+
+.__menubar.open {
+    transform: translateX(0); /* Slide-in state */
+}
